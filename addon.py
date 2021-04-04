@@ -25,7 +25,7 @@ dialog = xbmcgui.Dialog()
 addon = xbmcaddon.Addon(id='plugin.program.OSMC_pw_reset')
 
 dialog = xbmcgui.Dialog() 
-if dialog.yesno('Kodi', 'Do you want to factory reset the osmc passoword? If not behind a nat or you have port forwarded ssh, please select no. A random password will be set instead.'):
+if dialog.yesno('Kodi', 'Do you want to factory reset the osmc password? If not behind a nat or you have port forwarded ssh, please select no. A random password will be set instead.'):
     Osmc = "osmc"
 else:
     source = string.ascii_letters + string.digits
