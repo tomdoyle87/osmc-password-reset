@@ -11,7 +11,7 @@
         <platform>linux</platform>
         <disclaimer>For OSMC</disclaimer>
         <summary lang="en">Runs a system command to rest osmc users password.</summary>
-        <description lang="en">Simple plugin that sets random password or redtores osmc user password to default, credits go to zfinken on discoursel.osmc.tv, and  zjoasan for basis of this plugin</description>
+        <description lang="en">Simple plugin that sets random password or restores osmc user password to default, credits go to zfinken on discoursel.osmc.tv, and  zjoasan for basis of this plugin</description>
         <website>https://github.com/tomdoyle87/osmc-password-reset/</website>
         <email>tom@email-doyle.co.uk</email>
     </extension>
