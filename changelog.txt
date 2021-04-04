@@ -1,0 +1,1 @@
+0.0.1 Initial release, either sets random password or restores the password to OS default. Based on idea by fzinken on discourse.osmc.tv, and thanks zjoasan for the plugin this is based on.
