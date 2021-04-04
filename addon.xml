@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.OSMC_pw_reset" name="Password reset for osmc user" version="0.0.1" provider-name="tomdoyle97">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <language/>
+        <platform>linux</platform>
+        <disclaimer>For OSMC</disclaimer>
+        <summary lang="en">Runs a system command to rest osmc users password.</summary>
+        <description lang="en">Simple plugin that sets random password or redtores osmc user password to default, credits go to zfinken on discoursel.osmc.tv, and  zjoasan for basis of this plugin</description>
+        <website>https://github.com/tomdoyle87/osmc-password-reset/</website>
+        <email>tom@email-doyle.co.uk</email>
+    </extension>
+</addon>
