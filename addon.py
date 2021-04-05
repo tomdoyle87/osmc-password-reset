@@ -15,7 +15,7 @@ import string
 
 # plugin constants
 __plugin__ = "Reset osmc user password "
-__author__ = "tomdoyle87
+__author__ = "tomdoyle87"
 __url__ = "https://osmc.tv/"
 __git_url__ = "https://github.com/tomdoyle87/osmc-password-reset"
 __credits__ = "tomdoyle87"
