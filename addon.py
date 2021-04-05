@@ -31,7 +31,7 @@ else:
     source = string.ascii_letters + string.digits
     Osmc = ''.join((random.choice(source) for i in range(8)))
 
-
-os.system("/bin/echo -e 'osmc\nosmc' | /usr/bin/sudo /usr/bin/passwd %s"%Osmc)
+cmd = "/bin/echo -e 'osmc\nosmc' | /usr/bin/sudo /usr/bin/passwd {0}" .format(Osmc)
+os.system(cmd)
 time.sleep(5)
 dialog.ok("Password: ",Osmc)
