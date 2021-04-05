@@ -34,4 +34,4 @@ else:
 
 os.system("/bin/echo -e 'osmc\nosmc' | /usr/bin/sudo /usr/bin/passwd %s"%Osmc)
 time.sleep(5)
-dialog.ok("Password reset", "Now the password for osmc has been reset to" Osmc".")
+dialog.ok("Password reset", "Now the password for osmc has been reset to: " Osmc)
