@@ -33,4 +33,5 @@ else:
 
 os.system("/bin/echo -e '{0}\n{0}' | /usr/bin/sudo /usr/bin/passwd osmc" .format(Osmc))
 time.sleep(5)
-dialog.ok("Password: ",Osmc)
+password = "Password has been reset to: " + Osmc
+dialog.ok("Kodi: ",password)
