@@ -14,5 +14,8 @@
         <description lang="en">Simple plugin that sets random password or restores osmc user password to default, credits go to zfinken on discoursel.osmc.tv, and  zjoasan for basis of this plugin</description>
         <website>https://github.com/tomdoyle87/osmc-password-reset/</website>
         <email>tom@email-doyle.co.uk</email>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
 </addon>
